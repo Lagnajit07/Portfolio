@@ -65,8 +65,8 @@ const typed = new Typed('.multiple-text', {
 
 
 // Simple contact form alert
-document.querySelector("form").addEventListener("submit", e => {
-  e.preventDefault();
-  alert("Thanks for contacting me! 😊");
-  e.target.reset();
-});
+// document.querySelector("form").addEventListener("submit", e => {
+//   e.preventDefault();
+//   alert("Thanks for contacting me! 😊");
+//   e.target.reset();
+// });
