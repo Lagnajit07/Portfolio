@@ -25,11 +25,12 @@ html {
 body {
     background: var(--bg-color);
     color: var(--text-color);
-    overflow-y: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 section {
-    min-width: 100vh;
+    min-height: 100vh;
     padding: 10rem 9% 2rem;
 }
 
@@ -477,8 +478,8 @@ span {
     }
 
     .about img {
-        width: 70vh;
-        margin-top: 4rem;
+        width: 90vw;
+        height: auto;
     }
 
     .services h2 {
